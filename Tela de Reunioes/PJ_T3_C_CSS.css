@@ -1,0 +1,85 @@
+@-ms-viewport{
+	
+  width: device-width;
+  
+}
+*{
+	
+	font-family: 'Roboto';
+	
+}
+
+body{
+	
+	background-color:#E5E5E5;
+	
+}
+
+#painel_minimizado{
+	
+	background-color:#000000;
+	width:80px;
+	height:642px;
+	float:left;
+	left:0px;
+	top:0px;
+	border-radius:18px;
+	
+}
+
+#imagem_usuario_minimizado{
+	
+	position:absolute;
+	width:35px;
+	height:35px;
+	top:25px;
+	left:30px;
+	border-radius: 50px;
+	
+}
+
+#triangulo{
+	
+	position:absolute;
+	width:0;
+	height:0;
+	top:300px;
+	left:80px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 20px solid #F48C06;
+	
+}
+
+#painel_principal{
+	
+	position:absolute;
+	width:950px;
+	height:542px;
+	left:120px;
+	background:#EDF2F4;
+	border-radius:20px;
+	
+	
+}
+
+#bloco_apresentador{
+	
+	position:absolute;
+	width:750px;
+	height:450px;
+	left:100px;
+	top:50px;
+	border-radius:20px;
+	background:#FFFFFF;
+	
+}
+
+#imagem_foto_apresentador{
+	
+	position:absolute;
+	width:750px;
+	height:350px;
+	border-radius:20px;
+	
+}
