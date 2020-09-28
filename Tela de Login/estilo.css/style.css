@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+    background-color: white;
+    color: rgba(0, 0, 0, 1);
+ }
+ figure.foto-legenda{
+ }
+ .login{
+     font-size: 25px; color: rgba(232, 93, 4, 1); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: rgba(232, 93, 4, 1);
+     width: 30%;
+     top:150px;
+     text-align: center;
+     border-radius: 5px;
+     position:absolute;
+	 height:35px;
+	 left:30px;
+	 font-size:18pt;
+	 transition: 0.2s;
+ }
+.senha{
+    font-size: 25px; color: rgba(232, 93, 4, 1); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: rgba(232, 93, 4, 1);
+     width: 30%;
+     top:300px;
+     text-align: center;
+     border-radius: 5px;
+     position:absolute;
+	 height:35px;
+	 left:30px;
+	 font-size:18pt;
+     transition: 0.2s;
+    }
+    div.tres {
+        width:10px;
+        height:10px;
+        border: 1.5px solid;
+        border-color: rgb(0rgb(0, 0, 0) 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0);
+     top:395px;
+     text-align: center;
+     position:absolute;
+	 left:375px;
+	 font-size:18pt;
+     transition: 0.2s;
+    }
+    div.lembre{
+        font-size: 14px; color: black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        top:392px;
+     text-align: center;
+     position:absolute;
+	 left:393px;
+     transition: 0.2s;
+    }
+    .suasenha{
+     font-family: 'Times New Roman', Times, serif;
+     top:420px;
+     text-align: center;
+     position:absolute;
+	 left:450px;
+	 font-size:18pt;
+     transition: 0.2s;
+    }
+    .entrar{
+        font-size: 40px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: orange;
+        width: 750px;
+        text-align: center;
+        position:absolute;
+        left:300px;
+        top: 500;
+        transition: 0.2s;
+        border-radius: 40px;
+        border-color: orange;
+    }
