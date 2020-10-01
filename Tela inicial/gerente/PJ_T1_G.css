@@ -157,29 +157,6 @@ h2{
 	
 }
 
-#b_alugados{
-	
-	position:absolute;
-	background-color:#FFBA08;
-	width:200px;
-	height:35px;
-	border-radius:20px;
-	top:275px;
-	left:25px;
-	font-size:18pt;
-	transition: 0.2s;
-	
-}
-
-#b_alugados:hover{
-	
-	background-color:#000000;
-	color:#FFFFFF;
-	display:inline-block;
-	border-color:#FFFFFF;
-	
-}
-
 #b_logout{
 	
 	position:absolute;
