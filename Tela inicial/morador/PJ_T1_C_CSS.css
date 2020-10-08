@@ -1,0 +1,236 @@
+@-ms-viewport{
+	
+  width: device-width;
+  
+}
+
+*{
+	
+	font-family: 'Roboto';
+	
+}
+
+body{
+	
+	background-color:#E5E5E5;
+	
+}
+
+h1{
+	
+	position:absolute;
+	top:400px;
+	left:600px;
+	
+}
+
+h2{
+	
+	position:absolute;
+	top:445px;
+	left:645px;
+	
+}
+
+#painel_preto {
+	
+	background-color:#000000;
+	width:250px;
+	height:642px;
+	float:left;
+	border-radius:18px;
+	
+}
+
+#b_inicial {
+	
+	position:absolute;
+	background-color:#FFBA08;
+	width:200px;
+	height:35px;
+	border-radius:20px;
+	top:25px;
+	left:25px;
+	font-size:18pt;
+	transition: 0.5s;
+	outline:none;
+	
+}
+
+#icone_inicio{
+	
+	top:10px;
+	
+}
+
+#b_inicial:hover{
+	
+	background-color:#000000;
+	color:#FFFFFF;
+	display:inline-block;
+	border-color:#e85d04;
+	
+}
+
+#b_perfil{
+	
+	position:absolute;
+	background-color:#FFBA08;
+	width:200px;
+	height:35px;
+	border-radius:20px;
+	top:75px;
+	left:25px;
+	font-size:18pt;
+	transition: 0.2s;
+	outline:none;
+	
+}
+
+#icone_inicio{
+	
+	top:10px;
+	
+}
+
+#b_perfil:hover{
+	
+	background-color:#000000;
+	color:#FFFFFF;
+	display:inline-block;
+	border-color:#e85d04;
+	
+}
+
+#b_reunioes{
+	
+	position:absolute;
+	background-color:#FFBA08;
+	width:200px;
+	height:35px;
+	border-radius:20px;
+	top:125px;
+	left:25px;
+	font-size:18pt;
+	transition: 0.2s;
+	outline:none;
+	
+}
+
+#b_reunioes:hover{
+	
+	background-color:#000000;
+	color:#FFFFFF;
+	display:inline-block;
+	border-color:#e85d04;
+	
+}
+
+#b_eventos{
+	
+	position:absolute;
+	background-color:#FFBA08;
+	width:200px;
+	height:35px;
+	border-radius:20px;
+	top:175px;
+	left:25px;
+	font-size:18pt;
+	transition: 0.2s;
+	outline:none;
+	
+}
+
+#b_eventos:hover{
+	
+	background-color:#000000;
+	color:#FFFFFF;
+	display:inline-block;
+	border-color:#e85d04;
+	
+}
+
+#b_servicos{
+	
+	position:absolute;
+	background-color:#FFBA08;
+	width:200px;
+	height:35px;
+	border-radius:20px;
+	top:225px;
+	left:25px;
+	font-size:18pt;
+	transition: 0.2s;
+	outline:none;
+	
+}
+
+#b_servicos:hover{
+	
+	background-color:#000000;
+	color:#FFFFFF;
+	display:inline-block;
+	border-color:#e85d04;
+	
+}
+
+#b_alugados{
+	
+	position:absolute;
+	background-color:#FFBA08;
+	width:200px;
+	height:35px;
+	border-radius:20px;
+	top:275px;
+	left:25px;
+	font-size:18pt;
+	transition: 0.2s;
+	outline:none;
+	
+}
+
+#b_alugados:hover{
+	
+	background-color:#000000;
+	color:#FFFFFF;
+	display:inline-block;
+	border-color:#e85d04;
+	
+}
+
+#b_logout{
+	
+	position:absolute;
+	background-color:#FFBA08;
+	width:200px;
+	height:35px;
+	border-radius:20px;
+	top:600px;
+	left:25px;
+	font-size:18pt;
+	transition: 0.2s;
+	outline:none;
+	
+}
+
+#b_logout:hover{
+	
+	background-color:#000000;
+	color:#FFFFFF;
+	display:inline-block;
+	border-color:#e85d04;
+	
+}
+
+#imagem_usuario{
+	
+	position:absolute;
+	top:150px;
+	left:600px;
+	width:250px;
+	height:250px;
+	border-radius: 200px;
+	border-color:#F48C06;
+	border-width:10px;
+	
+}

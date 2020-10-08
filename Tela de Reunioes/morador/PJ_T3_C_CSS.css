@@ -1,0 +1,296 @@
+@-ms-viewport{
+	
+  width: device-width;
+  
+}
+
+*{
+	
+	font-family: 'Roboto';
+	
+}
+
+body{
+	
+	background-color:#E5E5E5;
+	
+}
+
+#painel_minimizado{
+	
+	background-color:#000000;
+	width:80px;
+	height:642px;
+	float:left;
+	left:0px;
+	top:0px;
+	border-radius:18px;
+	
+}
+
+#imagem_usuario_minimizado{
+	
+	position:absolute;
+	width:35px;
+	height:35px;
+	top:25px;
+	left:30px;
+	border-radius: 50px;
+	
+}
+
+#triangulo{
+	
+	position:absolute;
+	width:0;
+	height:0;
+	top:300px;
+	left:80px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 20px solid #F48C06;
+	
+}
+
+#painel_principal{
+	
+	position:absolute;
+	width:950px;
+	height:500px;
+	left:120px;
+	background:#EDF2F4;
+	border-radius:20px;
+	
+	
+}
+
+#bloco_apresentador{
+	
+	position:absolute;
+	width:750px;
+	height:350px;
+	left:100px;
+	top:50px;
+	border-radius:20px;
+	background:#FFFFFF;
+	
+}
+
+#imagem_foto_apresentador{
+	
+	position:absolute;
+	width:750px;
+	height:400px;
+	border-radius:20px;
+	
+}
+
+#nome_apresentador{
+	
+	position:absolute;
+	left:220px;
+	top:330px;
+	color:#FFFFFF;
+	font-size:30px;
+	
+}
+
+#barra_chat{
+	
+	position: absolute;
+	width: 280px;
+	height: 656px;
+	top:0px;
+	right:0px;
+	background-color:#FFBA08;
+	
+}
+
+#reuniao_nome{
+	
+	position: absolute;
+	width: 280px;
+	top:0px;
+	text-indent:50px;
+	
+}
+
+#conversa_1{
+	
+	position: absolute;
+	width: 250px;
+	height:20px;
+	top:30px;
+	left:15px;
+	text-indent:10px;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	
+}
+
+#chat_1{
+	
+	position: absolute;
+	
+	
+}
+
+#conversa_2{
+	
+	position: absolute;
+	width: 250px;
+	height:20px;
+	top:60px;
+	left:15px;
+	text-indent:10px;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	
+}
+
+#chat_2{
+	
+	position: absolute;
+	
+}
+
+#conversa_3{
+	
+	position: absolute;
+	width: 250px;
+	height:40px;
+	top:90px;
+	left:15px;
+	text-indent:10px;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	
+}
+
+#chat_3{
+	
+	position: absolute;
+	
+}
+
+#conversa_4{
+	
+	position: absolute;
+	width: 250px;
+	height:60px;
+	top:140px;
+	left:15px;
+	text-indent:10px;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	
+}
+
+#chat_4{
+	
+	position: absolute;
+	
+}
+
+#conversa_5{
+	
+	position: absolute;
+	width: 250px;
+	height:65px;
+	top:210px;
+	left:15px;
+	text-indent:10px;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	
+}
+
+#chat_5{
+	
+	position: absolute;
+	
+}
+
+#conversa_6{
+	
+	position: absolute;
+	width: 250px;
+	height:65px;
+	top:285px;
+	left:15px;
+	text-indent:10px;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	
+}
+
+#chat_6{
+	
+	position: absolute;
+	
+}
+
+#conversa_7{
+	
+	position: absolute;
+	width: 250px;
+	height:65px;
+	top:360px;
+	left:15px;
+	text-indent:10px;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	
+}
+
+#chat_7{
+	
+	position: absolute;
+	
+}
+
+#caixa_texto{
+	
+	position: absolute;
+	width: 280px;
+	height:100px;
+	bottom:0px;
+	background-color:#FFFFFF;
+	
+}
+
+#microfone{
+	
+	position: absolute;
+	width:75px;
+	height:75px;
+	top:550px;
+	right:875px;
+	outline:none;
+	border-radius:30px;
+	
+}
+
+#tela{
+	
+	position: absolute;
+	width:75px;
+	height:75px;
+	top:550px;
+	right:675px;
+	outline:none;
+	border-radius:30px;
+	
+}
+
+#enquete{
+	
+	position: absolute;
+	width:75px;
+	height:75px;
+	top:550px;
+	right:775px;
+	outline:none;
+	border-radius:30px;
+	
+}

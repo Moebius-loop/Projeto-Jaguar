@@ -1,0 +1,149 @@
+@-ms-viewport{
+	
+	width: device-width;
+	
+}
+
+*{
+		
+	font-family: 'Roboto';
+		
+}
+
+body{
+	
+	background-color: white;
+	
+}
+
+#painel_minimizado{
+	
+    background-color:#000000;
+    width:80px;
+    height:642px;
+    float:left;
+    left:0px;
+    top:0px;
+    border-radius:18px;
+    
+}
+
+#imagem_usuario_minimizado{
+    
+    position:absolute;
+    width:35px;
+    height:35px;
+    top:25px;
+    left:30px;
+    border-radius: 50px;
+    
+}
+
+#triangulo{
+    
+    position:absolute;
+    width:0;
+    height:0;
+    top:300px;
+    left:80px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid #F48C06;
+    
+}
+
+#caixa_botoes{
+	
+	display:flex;
+	width:fill;
+	height:640px;
+	
+	justify-content: space-evenly;
+	align-items:center;
+	flex-direction:column;
+	
+}
+
+#camada_1{
+	
+	display:flex;
+	width:800px;
+	height:fill;
+	font-size:30px;
+	
+	justify-content: center;
+	align-items:center;
+	
+}
+
+#camada_2{
+	
+	display:flex;
+	width:800px;
+	height:500px;
+	font-size:24px;
+	
+	justify-content: space-evenly;
+	flex-direction:row;
+	
+}
+
+
+#coluna_1{
+	
+	display:flex;
+	
+	
+	justify-content: space-evenly;
+	align-items:center;
+	flex-direction:column;
+	
+}
+
+#coluna_2{
+	
+	display:flex;
+	
+	justify-content: space-evenly;
+	align-items:center;
+	flex-direction:column;
+	
+}
+
+.botao{
+	
+	background-color: orange;
+	width: 300px;
+	height:50px;
+	font-size:24px;
+	border-radius: 30px;
+	border-color: orange;
+	outline:none;
+	
+}
+
+#camada_3{
+	
+	
+	
+}
+
+#botao_sugerir{
+	
+	font-size: 28px;
+	width: 750px;
+	left:300px;
+	background-color: #f48c06;
+	color: #e85d04;
+	border-radius: 30px;
+	outline:none;
+	transition:0.4s;
+	
+}
+
+#botao_sugerir:hover{
+	
+	background-color: #FFF;
+	border-color: #e63946;
+	
+}
