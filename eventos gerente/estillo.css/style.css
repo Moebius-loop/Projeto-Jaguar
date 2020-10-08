@@ -1,0 +1,163 @@
+@charset "UTF-8";
+#painel_minimizado{
+	
+    background-color:#000000;
+    width:80px;
+    height:642px;
+    float:left;
+    left:0px;
+    top:0px;
+    border-radius:18px;
+    
+}
+
+#imagem_usuario_minimizado{
+    
+    position:absolute;
+    width:35px;
+    height:35px;
+    top:25px;
+    left:30px;
+    border-radius: 50px;
+    
+}
+
+#triangulo{
+    
+    position:absolute;
+    width:0;
+    height:0;
+    top:300px;
+    left:80px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid #F48C06;
+    
+}
+
+.borda{
+    position: absolute;
+width: 500px;
+height: 300px;
+left: 420px;
+top: 300px;
+
+background: #F48C06;
+border-radius: 20px;
+}
+
+.borda_branca1{
+    position: absolute;
+width: 400px;
+height: 45px;
+left: 471px;
+top: 325px;
+
+background: #FFFFFF;
+border-radius: 20px;
+}
+.imag_1{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 482px;
+top: 332px;
+border-radius: 60px;
+
+background: #000000;
+}
+.borda_branca2{
+    position: absolute;
+width: 400px;
+height: 45px;
+left: 471px;
+top: 400px;
+
+background: #FFFFFF;
+border-radius: 20px;
+}
+.imag_2{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 482px;
+top: 407px;
+border-radius: 60px;
+ background:  rgb(255, 0, 0)
+}
+.borda_branca3{
+    position: absolute;
+width: 400px;
+height: 45px;
+left: 471px;
+top: 468px;
+
+background: #FFFFFF;
+border-radius: 20px;
+}
+.imag_3{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 482px;
+top: 476px;
+border-radius: 60px;
+ background:  rgb(69, 177, 26)
+}
+.borda_branca4{
+        position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 471px;
+    top: 536px;
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+    }
+.imag_4{
+position: absolute;
+width: 32px;
+height: 32px;
+left: 482px;
+top: 544px;
+border-radius: 60px;
+background:  rgb(26, 29, 177)
+}
+.titulo{
+    position: absolute;
+    left: 482px;
+}
+.prime_linha{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 560px;
+    top: 328px;
+    font-size: 14pt;
+    text-align: center;
+}
+.segund_linha{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 560px;
+    top: 403px;
+    font-size: 14pt;
+    text-align: center;
+}
+.ter_linha{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 560px;
+    top: 470px;
+    font-size: 14pt;
+    text-align: center;
+}
+.qua_linha{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 567px;
+    top: 538px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+
