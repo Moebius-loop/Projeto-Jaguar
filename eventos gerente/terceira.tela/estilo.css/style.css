@@ -1,0 +1,154 @@
+@charset "UTF-8";
+#painel_minimizado{
+	
+    background-color:#000000;
+    width:80px;
+    height:642px;
+    float:left;
+    left:0px;
+    top:0px;
+    border-radius:18px;
+    
+}
+
+#imagem_usuario_minimizado{
+    
+    position:absolute;
+    width:35px;
+    height:35px;
+    top:25px;
+    left:30px;
+    border-radius: 50px;
+    
+}
+
+#triangulo{
+    
+    position:absolute;
+    width:0;
+    height:0;
+    top:300px;
+    left:80px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid #F48C06;
+    
+}
+
+.validar{
+    position: absolute;
+    left: 550px;
+    top: 30px;
+}
+div.redondo{
+    width:120px;
+    height:120px;
+    border: 1.5px solid;
+    border-color: rgb(0rgb(0, 0, 0) 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0);
+    top:110px;
+    position:absolute;
+    left:600px;
+    font-size:18pt;
+    transition: 0.2s;
+    border-radius: 60px;
+}
+
+.nome{
+    position: absolute;
+    left: 330px;
+    top: 250px;
+}
+
+.contato{
+    position: absolute;
+    left: 330px;
+    top: 330px;
+}
+
+div.borda1{
+    position: absolute;
+width: 280px;
+height: 44px;
+left: 440px;
+top: 267px;
+
+background: #E5E5E5;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+text-align: center;
+font-size: 34px;
+}
+
+div.borda2{
+    position: absolute;
+width: 280px;
+height: 44px;
+left: 460px;
+top: 350px;
+
+background: #E5E5E5;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+text-align: center;
+font-size: 34px;
+}
+
+.comercio{
+    position: absolute;
+    left: 330px;
+    top: 410px;
+}
+
+div.borda3{
+    position: absolute;
+    width: 280px;
+    height: 44px;
+    left: 486px;
+    top: 428px;
+    
+    background: #E5E5E5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 34px;
+}
+.local{
+    position: absolute;
+    left: 330px;
+    top: 490px;
+}
+div.borda4{
+    position: absolute;
+    width: 280px;
+    height: 44px;
+    left: 440px;
+    top: 507px;
+    
+    background: #E5E5E5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.aceitar{
+    position: absolute;
+    top: 565px;
+    left: 360px;
+    background-color: green;
+    width: 200px;
+    text-align: center;
+    border-radius: 40px;
+}
+.negar{
+    position: absolute;
+    top: 565px;
+    left: 690px;
+    background-color: rgb(128, 0, 0);
+    width: 200px;
+    text-align: center;
+    border-radius: 40px;
+}
