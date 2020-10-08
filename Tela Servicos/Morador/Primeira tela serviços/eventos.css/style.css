@@ -1,115 +1,172 @@
-    @-ms-viewport{width: device-width;}
-    .servicos{
-        position: absolute;
-        left: 520px;
-    }
-
-    div.dois {
-        width:120px;
-        height:120px;
-        border: 1.5px solid;
-        border-color: rgb(0rgb(0, 0, 0) 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0);
-        top:100px;
-        text-align: center;
-        position:absolute;
-        left:620px;
-        font-size:18pt;
-        transition: 0.2s;
-        border-radius: 60px;
-    }
-
-    .foto{
-        text-align: center;
-    position:absolute;
-    left:586px;
-    top:215px;
-    font-size:18pt;
-    }
-    .nome{
-        position:absolute;
-        left:336px;
-        top:312px;
-        font-size:16pt;
-    }
-    .nome_empresa{
-        position:absolute;
-        left:600px;
-        top:312px;
-        font-size:16pt;
-        text-shadow: 1px 1px 1px  red;
-    }
-    .servico_pres{
-        position:absolute;
-        left:336px;
-        top:382px;
-        font-size:16pt;
-    }
-    .serv{
-        position:absolute;
-        left:630px;
-        top:382px;
-        font-size:16pt;
-        text-shadow: 1px 1px 1px  red;
-    }
-        .horario{
-        position:absolute;
-    left:336px;
-    top:452px;
-    font-size:16pt;
-    }
-    .horario_disp
-    {
-        position:absolute;
-        left:605px;
-        top:452px;
-        font-size:16pt;
-        text-shadow: 1px 1px 1px  red;
-    }
-    .salvar{
-        font-size: 28px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background-color: orange;
-        width: 750px;
-        position:absolute;
-        left:315px;
-        top:523px;
-        transition: 0.2s;
-        border-radius: 40px;
-        border-color: orange;
-    }
-    #painel_minimizado{
+@-ms-viewport{
 	
-        background-color:#000000;
-        width:80px;
-        height:642px;
-        float:left;
-        left:0px;
-        top:0px;
-        border-radius:18px;
-        
-    }
-    
-    #imagem_usuario_minimizado{
-        
-        position:absolute;
-        width:35px;
-        height:35px;
-        top:25px;
-        left:30px;
-        border-radius: 50px;
-        
-    }
-    
-    #triangulo{
-        
-        position:absolute;
-        width:0;
-        height:0;
-        top:300px;
-        left:80px;
-        border-top: 15px solid transparent;
-        border-bottom: 15px solid transparent;
-        border-left: 20px solid #F48C06;
-        
-    }
+	width: device-width;
+	
+}
 
+*{
+		
+	font-family: 'Roboto';
+		
+}
+
+body{
+	
+	background-color: white;
+	
+}
+
+#painel_minimizado{
+
+	background-color:#000000;
+	width:80px;
+	height:642px;
+	float:left;
+	left:0px;
+	top:0px;
+	border-radius:18px;
+	
+}
+
+#imagem_usuario_minimizado{
+	
+	position:absolute;
+	width:35px;
+	height:35px;
+	top:25px;
+	left:30px;
+	border-radius: 50px;
+	
+}
+
+#triangulo{
+	
+	position:absolute;
+	width:0;
+	height:0;
+	top:300px;
+	left:80px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 20px solid #F48C06;
+	
+}
+
+.servicos{
+	
+	position: absolute;
+	left: 520px;
+	
+}
+
+.foto {
+	
+	position:absolute;
+	width:120px;
+	height:120px;
+	top:110px;
+	left:620px;
+	border: 1.5px solid;
+	border-color: #000;
+	border-radius: 60px;
+	
+}
+
+.texto_foto{
+	
+	text-align: center;
+	position:absolute;
+	left:586px;
+	top:235px;
+	font-size:18pt;
+	
+}
+
+#caixa_input{
+	
+	position:absolute;
+	display:flex;
+	width:700px;
+	height:200px;
+	left:340px;
+	top:280px;
+	
+	justify-content:space-evenly;
+	flex-direction:column;
+	
+}
+
+#nome_caixa{
+	
+	display:flex;
+	
+	justify-content:space-between;
+	align-content:center;
+	
+}
+
+.nome{
+	
+	font-size:16pt;
+	
+}
+
+.input{
+	
+	font-size:16pt;
+	width:500px;
+	height:30px;
+	border-radius:30px;
+	outline:none;
+	
+}
+
+.input:focus{
+	
+	border-color: #e63946;
+	
+}
+
+#servico_caixa{
+	
+	display:flex;
+	
+	justify-content:space-between;
+	align-content:baseline;
+	
+}
+
+.servico{
+	
+	font-size:16pt;
+	
+}
+
+#horario_caixa{
+	
+	display:flex;
+	
+	justify-content:space-between;
+	align-content:baseline;
+	
+}
+
+.horario{
+	
+	font-size:16pt;
+	
+}
+
+.salvar{
+	
+	position:absolute;
+	background-color: #ffba08;
+	width: 750px;
+	left:315px;
+	top:523px;
+	font-size: 28px;
+	transition: 0.4s;
+	border-radius: 40px;
+	outline:none;
+	
+}
